@@ -1,6 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cococar">
-   <application
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
         android:label="cococar"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
@@ -30,5 +29,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyD-QgyF4dcnJnkxBIzjJi6SR6soV2XEu2U"/>
     </application>
 </manifest>
