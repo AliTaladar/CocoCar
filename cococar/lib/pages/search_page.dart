@@ -13,7 +13,7 @@ class SearchPage extends StatefulWidget {
 }
 
 class _SearchPageState extends State<SearchPage> {
-  List<dynamic> _searchResults = []; // To store autocomplete search results
+  List<dynamic> _searchResults = [];
   final apiKey = GOOGLE_MAPS_API_KEY;
 
   void _onSearchChanged(String query) async {
