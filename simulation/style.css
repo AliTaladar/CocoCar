@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(200,200,200);
+}
+
+#container{
+    background-image: url('background.png');
+    background-size: cover;
+    width: 90%;
+    height: 77%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+#speed{
+    position: absolute;
+    left: 10%;
+    top: 83.5%;
+}
